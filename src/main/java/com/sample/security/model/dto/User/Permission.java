@@ -8,4 +8,5 @@ public enum Permission {
     WRITE("write");
 
     private final String name;
+
 }

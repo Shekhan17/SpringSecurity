@@ -9,4 +9,5 @@ public class UserDto extends BaseDto<Long> {
     private String password;
     private Role role;
     private Boolean isActive;
+    private Status status;
 }

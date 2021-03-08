@@ -9,7 +9,7 @@ import javax.persistence.*;
 public abstract class BaseEntity<T> {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false, unique=true)
     private T id;
 }
